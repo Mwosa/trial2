@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Include the Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <section id="header" class="sectionP11">
+        <div class="header-content">
+            <h2>Nelson Mwosa</h2>
+            <h5>I'm a passionate <span>Web Developer</span> from Nairobi</h5>
+            <ul id="navbar">
+                <li><a href="#" onclick="toggleSection('header')">Home</a></li>
+                <li><a href="#" onclick="toggleSection('about-sec')">About</a></li>
+                <li><a href="#" onclick="toggleSection('resume-sec')">Resume</a></li>
+                <li><a href="#" onclick="toggleSection('services-sec')">Services</a></li>
+                <li><a href="#" onclick="toggleSection('portfolio-sec')">Portfolio</a></li>
+                <li><a href="#" onclick="toggleSection('contact-sec')">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN NAV SECTION -->
+    <section id="main-nav">
+        <div class="mainNavBar">
+            <h2>Nelson Mwosa</h2>
+            <ul id="navbar">
+                <li><a href="#" onclick="toggleSection('header')">Home</a></li>
+                <li><a href="#" onclick="toggleSection('about-sec')">About</a></li>
+                <li><a href="#" onclick="toggleSection('resume-sec')">Resume</a></li>
+                <li><a href="#" onclick="toggleSection('services-sec')">Services</a></li>
+                <li><a href="#" onclick="toggleSection('portfolio-sec')">Portfolio</a></li>
+                <li><a href="#" onclick="toggleSection('contact-sec')">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about-sec" class="section-p1">
+        <div class="margineffect">
+            <h4 class="line-after">ABOUT</h4>
+            <h2>LEARN MORE ABOUT ME</h2>
+
+            <!-- about me -->
+            <div class="about-me section-m1">
+                <div class="myimage">
+                    <img src="images/prof3.jpg" alt="">
+                </div>
+                <div class="about-details">
+                    <h4>Front-end Web Developer</h4>
+                    <p><em>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptatum repudiandae aspernatur, magni laborum tempora dolore saepe itaque provident voluptas.</em></p>
+                    <div class="mylist">
+                        <div class="col1">
+                            <ul>
+                                <li><i class="fa fa-greater-than"></i><strong>Birthday:</strong> 20th April 2000</li>
+                                <li><i class="fa fa-greater-than"></i><strong>Website:</strong> www.example.com</li>
+                                <li><i class="fa fa-greater-than"></i><strong>Phone:</strong> +254717756658</li>
+                                <li><i class="fa fa-greater-than"></i><strong>City:</strong> Nairobi, Kenya</li>
+                            </ul>
+                        </div>
+                        <div class="col1">
+                            <ul>
+                                <li><i class="fa fa-greater-than"></i><strong>Age:</strong> 23</li>
+                                <li><i class="fa fa-greater-than"></i><strong>Degree:</strong> Master</li>
+                                <li><i class="fa fa-greater-than"></i><strong>Email:</strong> nelson@mail.com</li>
+                                <li><i class="fa fa-greater-than"></i><strong>Freelance:</strong> Available</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+                </div>
+            </div>
+
+            <!-- counts -->
+            <div class="counts section-m1">
+                <div class="box1">
+                    <i class="fas fa-smile"></i>
+                    <div class="sum">
+                        <h3 data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter">232</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <i class="fas fa-history"></i>
+                    <div class="sum">
+                        <h3 data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter">521</h3>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <i class="fas fa-headset"></i>
+                    <div class="sum">
+                        <h3 data-purecounter-start="0" data-purecounter-end="146" data-purecounter-duration="1" class="purecounter">146</h3>
+                        <p>Hours of Support</p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <i class="fas fa-award"></i>
+                    <div class="sum">
+                        <h3 data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter">20</h3>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- skills -->
+            <h4 class="line-after">SKILLS</h4>
+            <div class="skills section-m1">
+                <div class="row1">
+                    <div class="row-content">
+                        <div class="row-text">
+                            <h5>HTML</h5>
+                            <h5>100%</h5>
+                        </div>
+                        <div class="progress">
+                            <div id="progress-bar-1" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="row-content">
+                        <div class="row-text">
+                            <h5>CSS</h5>
+                            <h5>90%</h5>
+                        </div>
+                        <div class="progress">
+                            <div id="progress-bar-2" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="row-content">
+                        <div class="row-text">
+                            <h5>JAVASCRIPT</h5>
+                            <h5>75%</h5>
+                        </div>
+                        <div class="progress">
+                            <div id="progress-bar-3" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="75"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row1">
+                    <div class="row-content">
+                        <div class="row-text">
+                            <h5>FIGMA</h5>
+                            <h5>80%</h5>
+                        </div>
+                        <div class="progress">
+                            <div id="progress-bar-4" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="row-content">
+                        <div class="row-text">
+                            <h5>WORDPRESS</h5>
+                            <h5>90%</h5>
+                        </div>
+                        <div class="progress">
+                            <div id="progress-bar-5" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="row-content">
+                        <div class="row-text">
+                            <h5>PHOTOSHOP</h5>
+                            <h5>55%</h5>
+                        </div>
+                        <div class="progress">
+                            <div id="progress-bar-6" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="55"></div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <!-- interests -->
+            <h4 class="line-after">INTERESTS</h4>
+            <div class="interests section-m1">
+                <div class="interest-row">
+                    <div class="interest1">
+                        <i class="fa fa-car green"></i>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-cloud green"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-car green"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-cloud green"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                </div>
+                <div class="interest-row">
+                    <div class="interest1">
+                        <i class="fa fa-music yellow"></i>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-dragon yellow"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-music yellow"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-dragon yellow"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                </div>
+                <div class="interest-row">
+                    <div class="interest1">
+                        <i class="fa fa-futbol blue"></i>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-car blue"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-futbol blue"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                    <div class="interest1">
+                        <i class="fa fa-car blue"></i>
+                        <p>Lorem, ipsum</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- testimonials -->
+            <h4 class="line-after">TESTIMONIALS</h4>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <p><em><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis ipsum maxime asperiores. Facere alias exercitationem provident, soluta dignissimos doloremque fuga aliquid molestias accusamus quos!<i class="fa fa-quote-right"></i></em></p>
+                    </div>
+                    <div class="pic">
+                        <img src="images/prof2.jpg" alt="">
+                    </div>
+                    <div class="testimonial-details">
+                    <h6>Saul Goodman</h6>
+                    <p>Co-Founder</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <p><em><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis ipsum maxime asperiores. Facere alias exercitationem provident, soluta dignissimos doloremque fuga aliquid molestias accusamus quos!<i class="fa fa-quote-right"></i></em></p>
+                    </div>
+                    <div class="pic">
+                        <img src="images/prof2.jpg" alt="">
+                    </div>
+                    <div class="testimonial-details">
+                        <h6>Saul Goodman</h6>
+                        <p>Product Designer</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <p><em><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis ipsum maxime asperiores. Facere alias exercitationem provident, soluta dignissimos doloremque fuga aliquid molestias accusamus quos!<i class="fa fa-quote-right"></i></em></p>
+                    </div>
+                    <div class="pic">
+                        <img src="images/profile.jpg" alt="">
+                    </div>
+                    <div class="testimonial-details">
+                        <h6>Saul Goodman</h6>
+                        <p>Designer</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <p><em><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis ipsum maxime asperiores. Facere alias exercitationem provident, soluta dignissimos doloremque fuga aliquid molestias accusamus quos!<i class="fa fa-quote-right"></i></em></p>
+                    </div>
+                    <div class="pic">
+                        <img src="images/prof2.jpg" alt="">
+                    </div>
+                    <div class="testimonial-details">
+                        <h6>Saul Goodman</h6>
+                        <p>Enterpreneur</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <p><em><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis ipsum maxime asperiores. Facere alias exercitationem provident, soluta dignissimos doloremque fuga aliquid molestias accusamus quos!<i class="fa fa-quote-right"></i></em></p>
+                    </div>
+                    <div class="pic">
+                        <img src="images/profile.jpg" alt="">
+                    </div>
+                    <div class="testimonial-details">
+                        <h6>Saul Goodman</h6>
+                        <p>Co-Founder</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-pagination"></div>  
+            </div>
+              
+           
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume-sec" class="section-p1">
+        <div class="margineffect">
+            <h4 class="line-after">RESUME</h4>
+            <h2>CHECK MY RESUME</h2>
+
+            <div class="resume">
+                <div class="resume-col">
+                    <div class="summary">
+                        <h4>Summary</h4>
+                        <div class="resume-details left-border">
+                            <h5>ALICE BARKLEY</h5>
+                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                            <li>Ruaka 127 Nairobi, Kenya</li>
+                            <li>(+254)717756658</li>
+                            <li>alice@example.com</li>
+                        </div>
+                    </div>
+                    <div class="summary">
+                        <h4>Education</h4>
+                        <div class="left-border">
+                        <div class="resume-details">
+                            <h5>MASTER OF FINE ARTS & UX DESIGN</h5>
+                            <span>2020 - 2022</span>
+                            <p><em>Jomo Kenyatta University of Agriculture and Technology</em></p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil optio saepe quo porro adipisci repudiandae sint voluptas dolor pariatur. Magnam?</p>
+                        </div>
+                        <div class="resume-details">
+                            <h5>MASTER OF FINE ARTS & UX DESIGN</h5>
+                            <span>2020 - 2022</span>
+                            <p><em>Jomo Kenyatta University of Agriculture and Technology</em></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda, dicta, voluptatum porro natus recusandae nostrum aperiam aspernatur officiis cumque quo! Minus commodi voluptatem, dicta quos molestiae adipisci harum, debitis necessitatibus vel eaque suscipit dolorem.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-col">
+                    <div class="summary">
+                        <h4>Professional Experience</h4>
+                        <div class="left-border">
+                        <div class="resume-details">
+                            <h5>SENIOR UX DESIGN SPECIALIST</h5>
+                            <span>2020 - Present</span>
+                            <p><em>Experion, New York, NY</em></p></p>
+                            <ul>
+                                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project</li>
+                                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            </ul>
+                        </div>
+                        <div class="resume-details">
+                            <h5>SENIOR UX DESIGN SPECIALIST</h5>
+                            <span>2018 - 2020</span>
+                            <p><em>Stepping Stone Advertising, New York, NY</em></p></p>
+                            <ul>
+                                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project</li>
+                                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services-sec" class="section-p1">
+        <div class="margineffect">
+            <h4 class="line-after">SERVICES</h4>
+            <h2>MY SERVICES</h2>
+
+            <div class="services">
+                <div class="service-row">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-globe icn"></i>
+                            <i class="fa fa-globe main-icon"></i>
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, corrupti. Cum, rem.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-folder icn"></i>
+                            <i class="fa fa-folder main-icon"></i>
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, corrupti. Cum, rem.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-desktop icn"></i>
+                            <i class="fa fa-desktop main-icon"></i>
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, corrupti. Cum, rem.</p>
+                    </div>
+                </div>
+
+                <div class="service-row">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-globe icn"></i>
+                            <i class="fa fa-globe main-icon"></i>
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, corrupti. Cum, rem.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-folder icn"></i>
+                            <i class="fa fa-folder main-icon"></i>
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, corrupti. Cum, rem.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-desktop icn"></i>
+                            <i class="fa fa-desktop main-icon"></i>
+                        </div>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, corrupti. Cum, rem.</p>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio-sec" class="section-p1 port">
+        <div class="margineffect">
+            <h4 class="line-after">PORTFOLIO</h4>
+            <h2>MY WORKS</h2>
+
+        <div id="portfolio-buttons">
+            <button class="but butActive" onclick="filterObjects('all')">ALL</button>
+            <button class="but" onclick="filterObjects('app')">APP</button>
+            <button class="but" onclick="filterObjects('cardd')">CARD</button>
+            <button class="but" onclick="filterObjects('web')">WEB</button>
+        </div>
+
+        <div class="objects">
+            <div class="box app"><img src="images/prof2.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+            <div class="box app"><img src="images/bg5.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+            <div class="box app"><img src="images/bg6.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+        
+            <div class="box cardd"><img src="images/bg1.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+            <div class="box cardd"><img src="images/bg2.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+            <div class="box cardd"><img src="images/suit1.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+
+            <div class="box web"><img src="images/abt1.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+            <div class="box web"><img src="images/abt2.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+            <div class="box web"><img src="images/savemoney.jpg" alt=""><a href="#" onclick="toggleSection('port-details')"><i class="fa fa-link"></i></a></div>
+        </div>
+
+            
+        </div>
+    </section>
+
+    <!-- portfolio details section -->
+    <section id="port-details" class="section-p1">
+        <span class="icon-close" onclick="closePortDetails()"><ion-icon name="close"></ion-icon></span>
+        <h4>This is an example of portfolio detail</h4>
+        <div class="port-info">
+            <swiper-container class="mySwiper" pagination="true" autoplay-delay="4000" autoplay-disable-on-interaction="false">
+                <swiper-slide><img src="images/abt1.jpg" alt=""></swiper-slide>
+                <swiper-slide><img src="images/abt2.jpg" alt=""></swiper-slide>
+                <swiper-slide><img src="images/bg1.jpg" alt=""></swiper-slide>
+            </swiper-container>
+            <div class="details">
+                <h5>Project Information</h5>
+                <h6><strong>Category: </strong>Web Design</h6>
+                <h6><strong>Client: </strong>ASU Company</h6>
+                <h6><strong>Project Date: </strong>01 March, 2022</h6>
+                <h6><strong>Project URL: </strong><span>www.example.com</span></h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sunt reiciendis cupiditate! Architecto vero inventore officia corrupti deleniti, ea nisi perferendis aliquam optio magni tenetur unde quidem dolorum accusantium tempora. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sunt reiciendis cupiditate! Architecto vero inventore officia corrupti deleniti, ea </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-sec" class="section-p1">
+        <div class="margineffect">
+            <h4 class="line-after">CONTACT</h4>
+            <h2>CONTACT ME</h2>
+
+            <div class="contact-row">
+                <div class="contact">
+                    <span>
+                    <i class="fa fa-location-dot"></i>
+                    </span>
+                    <div class="contact-detail">
+                    <h4>My Address</h4>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <span>
+                    <i class="fa fa-envelope"></i>
+                    </span>
+                    <div class="contact-detail">
+                        <h4>Social Profiles</h4>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-row">
+                <div class="contact">
+                    <span>
+                    <i class="fa fa-envelope"></i>
+                    </span>
+                    <div class="contact-detail">
+                    <h4>Email Me</h4>
+                    <p>nelson@example.com</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <span>
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </span>
+                    <div class="contact-detail">
+                        <h4>Call Me</h4>
+                        <p>(+254)717 756 658</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="form-details">
+                <form action="">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your Email">
+                    </div>
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div class="btn">
+                    <button>Send Message</button>
+                    </div>
+                </form>
+            </div>
+        
+        
+            
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- to filter the boxes -->
+    <script>      
+    filterObjects("all");
+    function filterObjects(c){
+        var x, i;
+        x = document.getElementsByClassName("box");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++){
+            removeClass (x[i], "show");
+            if (x[i].className.indexOf(c) > -1) addClass (x[i], "show")
+        }
+    }
+    function addClass (element, name){
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++){
+            if (arr1.indexOf (arr2[i]) == -1){
+                element.className +=" " + arr2[i];
+            }
+        }
+    }
+    function removeClass (element, name){
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++){
+            while (arr1.indexOf (arr2[i]) > -1){
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+             }
+        }
+        element.className = arr1.join(" ");
+    }
+    </script>
+
+    <!-- to open and close portfolio details -->
+    <script>
+        toggleSection ('header');
+
+
+        var initialContent = '';
+
+        function toggleSection(sectionId) {
+            const mainNav = document.getElementById('main-nav');
+            const header = document.getElementById('header');
+
+            var section = document.getElementById(sectionId);
+            var otherElements = document.getElementsByClassName('section-p1');
+            var homeNav = document.getElementsByClassName('sectionP11');
+
+            //save the initial content of the section
+            initialContent = section.innerHTML;
+
+            //hide all other elements
+            for (var i = 0; i < otherElements.length; i++) {
+                otherElements[i].style.display = 'none';
+            }
+
+            for (var i = 0; i < homeNav.length; i++) {
+                homeNav[i].style.display = 'none';
+            }
+
+            //show the section
+            section.style.display = 'block';
+
+            if (sectionId === 'header') {
+                mainNav.style.display = 'none';
+                header.style.display = 'block';
+            } else {
+                mainNav.style.display = 'block';
+                header.style.display = 'none';
+            }
+        }
+        
+        function closePortDetails() {
+            var section = document.getElementById('port-details');
+            var otherElements = document.getElementsByClassName("port");
+
+            //hide the section
+            section.style.display = 'none';
+
+            //show other elements
+            for (var i = 0; i < otherElements.length; i++) {
+                otherElements[i].style.display = 'block';
+        }
+            //restore the initial content of the section
+            section.innerHTML = initialContent;
+        }
+
+        //toggle the display of the clicked section
+        if (section.style.display === 'none'){
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+    </script>
+
+
+
+    <!-- button class active -->
+    <script>
+        const btnActive = document.querySelectorAll('.but');
+
+        btnActive.forEach(but => {
+            but.addEventListener('click', function(){
+                btnActive.forEach(btn => btn.classList.remove('butActive'));
+                this.classList.add('butActive');
+            });
+        });
+    </script>
+
+    <!-- styling the pagination -->
+    <script>
+        const swiperEl = document.querySelector('swiper-container');
+
+        const params = {
+            injectStyles: [`
+        
+            .swiper-pagination-bullet {
+                width: 13px;
+                height: 13px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 10px;
+                color: rgba(70, 68, 68, 0.9);
+                opacity: 1;
+                background: rgba(255, 255, 255, 0.3);
+            }
+            .swiper-pagination-bullet-active {
+                color: #fff;
+                background: #22eb86;
+            }
+            `]
+        }
+        
+        Object.assign(swiperEl, params);
+
+        swiperEl.initialize();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Include the Swiper library -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- swiper script -->
+     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Initialize Swiper
+            var swiper = new Swiper('.swiper-container', {
+                autoplay: {
+                delay: 2000, // Set the desired delay in milliseconds
+                },
+                slidesPerView: 3,
+                spaceBetween: 10,
+                centeredSlides: true,
+                loop: true,
+                centerSlide: 'true',
+                fade: 'true',
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+        new PureCounter();
+    </script>
+
+     <!-- js to animate progress bars -->
+    <script>
+        $(document).ready(function() {
+            var animationComplete = false;
+
+            $(document).scroll(function() {
+            if (!animationComplete) {
+          animateProgressBar('#progress-bar-1', 100, 2000); // Animate first progress bar to 25%
+          animateProgressBar('#progress-bar-2', 90, 2000); // Animate second progress bar to 90%
+          animateProgressBar('#progress-bar-3', 75, 2000); // Animate third progress bar to 75%
+          animateProgressBar('#progress-bar-4', 80, 2000); // Animate first progress bar to 80%
+          animateProgressBar('#progress-bar-5', 90, 2000); // Animate second progress bar to 90%
+          animateProgressBar('#progress-bar-6', 55, 2000); // Animate third progress bar to 55%
+        
+            animationComplete = true;
+            }
+            });
+        
+          function animateProgressBar(barSelector, targetWidth, duration) {
+            var progressBar = $(barSelector);
+            progressBar.stop().animate({ width: targetWidth + '%' }, duration);
+          }
+        });
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
